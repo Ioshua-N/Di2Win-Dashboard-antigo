@@ -3,7 +3,7 @@ import { CommonModule } from '@angular/common';
 
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { faChartLine } from '@fortawesome/free-solid-svg-icons';
-
+import { faUser } from '@fortawesome/free-solid-svg-icons';
 
 
 @Component({
@@ -15,5 +15,5 @@ import { faChartLine } from '@fortawesome/free-solid-svg-icons';
 })
 export class SideNaveComponent {
   faChartLine = faChartLine;
-
+  faUser = faUser;
 }
