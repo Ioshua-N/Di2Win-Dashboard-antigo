@@ -9,7 +9,7 @@
     {
         width: 250px;
 
-        background-color: pink;
+        background: #ED1C91; //linear-gradient(to right, #65003D, #ED1C91);
 
         transition: width 0.3s ease;
 
@@ -30,7 +30,8 @@
     {
         width: calc(100vw - 250px);
 
-        background-color: #D9D9D9;
+        background-color: #F5F6F8;
+        box-shadow: 5px 5px 5px #D9D9D9;
 
         transform: width 0.3s ease;
 
